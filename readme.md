@@ -1,0 +1,1 @@
+<h1>This repository stores code snippets that can be reused in your projects.</h1>

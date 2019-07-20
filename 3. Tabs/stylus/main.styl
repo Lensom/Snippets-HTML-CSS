@@ -1,0 +1,78 @@
+@import "_font-face.styl"
+@import "_libs.styl"
+@import "_vars.styl"
+
+// all
+html, body
+	height 100%
+
+body
+	font-size 16px
+	min-width 320px
+	position relative
+	line-height 1.65
+	font-family $default-font
+	overflow-x hidden
+	margin 0
+
+
+// Custom css
+
+.tab
+	margin 100px 0
+	&-wrapper
+		max-width 768px
+		width 100%
+		padding 0 15px
+		margin 0 auto
+	&-list
+		display flex
+		justify-content center
+		padding 0
+	&-link
+		display inline-block
+		margin 0 20px
+	&-block
+		display none
+		transition all .3s ease
+		margin-top 70px
+	&-block.active
+		display block
+	&-title 
+		font-size 26px
+
+
+a.active
+	.fa-telegram 
+		color #1EA7D5
+	.fa-vk
+		color #5181B8
+	.fa-youtube
+		color #FF0000
+	.fa-facebook
+		color #3A589E
+	.fa-whatsapp
+		color #55F473
+
+a:hover
+	.fa-telegram 
+		color #1EA7D5
+	.fa-vk
+		color #5181B8
+	.fa-youtube
+		color #FF0000
+	.fa-facebook
+		color #3A589E
+	.fa-whatsapp
+		color #55F473
+
+
+.fa
+	color black
+	font-size 50px
+	transition all .3s ease
+
+
+
+
+@import "_media.styl" // Always at the end

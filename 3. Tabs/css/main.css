@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format('embedded-opentype'), url("../fonts/RobotoRegular/RobotoRegular.woff") format('woff'), url("../fonts/RobotoRegular/RobotoRegular.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format('embedded-opentype'), url("../fonts/RobotoBold/RobotoBold.woff") format('woff'), url("../fonts/RobotoBold/RobotoBold.ttf") format('truetype');
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+.tab {
+  margin: 100px 0;
+}
+.tab-wrapper {
+  max-width: 768px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.tab-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+.tab-link {
+  display: inline-block;
+  margin: 0 20px;
+}
+.tab-block {
+  display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 70px;
+}
+.tab-block.active {
+  display: block;
+}
+.tab-title {
+  font-size: 26px;
+}
+a.active .fa-telegram {
+  color: #1ea7d5;
+}
+a.active .fa-vk {
+  color: #5181b8;
+}
+a.active .fa-youtube {
+  color: #f00;
+}
+a.active .fa-facebook {
+  color: #3a589e;
+}
+a.active .fa-whatsapp {
+  color: #55f473;
+}
+a:hover .fa-telegram {
+  color: #1ea7d5;
+}
+a:hover .fa-vk {
+  color: #5181b8;
+}
+a:hover .fa-youtube {
+  color: #f00;
+}
+a:hover .fa-facebook {
+  color: #3a589e;
+}
+a:hover .fa-whatsapp {
+  color: #55f473;
+}
+.fa {
+  color: #000;
+  font-size: 50px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
